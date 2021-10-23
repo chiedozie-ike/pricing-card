@@ -18,3 +18,29 @@
   --clr-gray-800: #1f2937;
   --clr-gray-900: #111827;
 }
+
+body {
+  background-color: var(--clr-gray-100);
+}
+.card {
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  max-width: 250px;
+  box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.8);
+}
+
+.card > img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+}
+
+.card__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
